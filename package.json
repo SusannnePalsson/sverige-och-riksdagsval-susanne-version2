@@ -1,0 +1,22 @@
+{
+  "name": "statistics-template",
+  "version": "7.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon backend/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mysql2": "^3.14.0",
+    "neo4j-driver": "^5.28.1",
+    "nodemon": "^3.1.9",
+    "statistics-template": "file:"
+  }
+}
