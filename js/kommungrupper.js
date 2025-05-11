@@ -1,3 +1,15 @@
+addMdToPage(`
+  
+  ## Kommungruperingar i Sverige
+`);
+
+addMdToPage(`
+
+  Källan för definitionerna av kommungrupper är SKR (Sveriges Kommuner och Regioner).
+  Kan hittas på följande websida: https://skr.se/skr/tjanster/rapporterochskrifter/publikationer/kommungruppsindelning2023.67834.html
+
+  `);
+
 /********** Kommun_Statistik: Kommungruppsindelning **********/
 (async () => {
   dbQuery.use('kommun-statistik');
